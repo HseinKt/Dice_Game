@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:  #bce0fc ;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 ,h2, .row, .refresh {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3%;
+}
+
+h2 {
+    padding: 2%;
+}
+
+.row .col{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.row .col .player {
+    padding-bottom: 30%;
+}
