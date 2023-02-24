@@ -1,7 +1,4 @@
-//here I will be displayed the winner
 const start = document.getElementById('start');
-console.log(start.innerHTML)
-
 const img1 = document.getElementById("image1")
 const img2 = document.getElementById("image2")
 
